@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tanya Samarakovskaya — Creative Director</title>
+<link rel="icon" type="image/jpeg" href="Assets/icon.jpg">
+<meta property="og:title" content="Tanya Samarakovskaya — Creative Director">
+<meta property="og:description" content="Designing WOW emotion. Creative Director & Producer — phygital spaces, exhibitions, experience design.">
+<meta property="og:image" content="Assets/icon.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="Assets/icon.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
@@ -195,15 +202,15 @@
   @media (max-width:900px){.works-grid{grid-template-columns:repeat(6,1fr)}}
   @media (max-width:560px){.works-grid{grid-template-columns:1fr;gap:12px}}
 
-  .work{position:relative;border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;min-height:380px;color:inherit;transition:all .4s cubic-bezier(.2,.8,.2,1)}
+  .work{position:relative;border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;min-height:380px;color:inherit;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
   .work:hover{transform:translateY(-4px);border-color:var(--ink-3)}
   .work .vis{position:absolute;inset:0;z-index:0}
   .work .vis::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.92) 100%);z-index:5}
 
   /* vis-photo: real image layer inside work cards */
   .work .vis-photo{position:absolute;inset:0;z-index:1}
-  .work .vis-photo img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.62;transition:opacity .4s ease,transform .4s ease}
-  .work:hover .vis-photo img{opacity:0.82;transform:scale(1.03)}
+  .work .vis-photo img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;opacity:0.80;transition:opacity .18s ease,transform .18s ease}
+  .work:hover .vis-photo img{opacity:0.95;transform:scale(1.03)}
 
   .work-top{position:relative;z-index:6;display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:auto;font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(243,241,234,.7)}
   .work-tag{padding:6px 10px;border:1px solid rgba(243,241,234,.2);border-radius:99px;background:rgba(0,0,0,.4);backdrop-filter:blur(8px)}
@@ -370,7 +377,7 @@
 <nav class="nav" data-screen-label="Nav">
   <div class="wrap">
     <div class="nav-row">
-      <a class="brand" href="#top">
+      <a class="brand" href="https://samarakovskaya.netlify.app/#top" target="_blank" rel="noopener">
         <span class="brand-mark">T</span>
         <span><b>Samarakovskaya</b><i>Tanya</i></span>
       </a>
@@ -394,15 +401,15 @@
 
   <!-- Full-screen background photo -->
   <div class="hero-bg">
-    <img src="Assets/mememe.webp" alt="Tanya Samarakovskaya" loading="eager">
+    <img src="Assets/mememe_new.webp" alt="Tanya Samarakovskaya" loading="eager">
   </div>
 
   <div class="hero-content">
     <div class="wrap" style="display:flex;flex-direction:column;flex:1">
 
       <div class="hero-top-row">
-        <span><span class="live-dot"></span>Available · 2026 Q3</span>
-        <span class="mono">Creative Director &amp; Producer</span>
+        <span><span class="live-dot"></span>Creative Director &amp; Producer</span>
+        <span class="mono" style="opacity:0.45;font-size:10px"></span>
       </div>
 
       <h1 class="hero-name">
@@ -417,9 +424,12 @@
         <div class="hero-tags">
           <span class="tag solid">Experience design</span>
           <span class="tag">Phygital</span>
-          <span class="tag">AR / AI</span>
+          <span class="tag">AI Prod</span>
+          <span style="width:100%;height:0;flex-basis:100%"></span>
           <span class="tag">Theater</span>
           <span class="tag">Exhibitions</span>
+          <span class="tag">Parks</span>
+          <span class="tag">AR</span>
         </div>
         <div class="hero-actions">
           <a class="btn btn-primary" href="mailto:tsamarakovskaya@gmail.com">
@@ -460,7 +470,7 @@
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="sec-num">[ 01 ] · About</span>
-      <h2 class="sec-title">Designing<br><em>emotion</em>, not<br>decoration<span style="color:var(--accent)">.</span></h2>
+      <h2 class="sec-title">Designing<br><em>WOW</em><br>emotion<span style="color:var(--accent)">.</span></h2>
       <span class="sec-side">A practice between<br><b>art &amp; technology</b><br>since 2014</span>
     </div>
 
@@ -611,6 +621,23 @@
         </div>
       </a>
 
+      <a class="work span-12" href="https://capybarabooom.ru" target="_blank" rel="noopener">
+        <div class="vis vis-capy">
+          <div class="vis-photo"><img src="Assets/Preview_projects/Capybaraboom.webp" alt="Capybara Booom" style="object-position:center 40%"></div>
+        </div>
+        <div class="work-top">
+          <span class="work-tag">Интерактивная выставка · Pop-IP</span>
+          <span class="work-num">03 / 10</span>
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3 class="work-title">Capybara <em>Booom</em></h3>
+            <p class="work-cat">Exhibitions · Experience design · IP system</p>
+          </div>
+          <span class="work-go">↗</span>
+        </div>
+      </a>
+
       <a class="work span-4" href="https://www.behance.net/gallery/246508109/spektakl-pole" target="_blank" rel="noopener">
         <div class="vis vis-pole">
           <div class="vis-photo"><img src="Assets/Preview_projects/Pole.webp" alt="POLE"></div>
@@ -732,23 +759,6 @@
         </div>
       </a>
 
-      <a class="work span-12" href="https://capybarabooom.ru" target="_blank" rel="noopener">
-        <div class="vis vis-capy">
-          <div class="vis-photo"><img src="Assets/Preview_projects/Capybaraboom.webp" alt="Capybara Booom" style="object-position:center 40%"></div>
-        </div>
-        <div class="work-top">
-          <span class="work-tag">Интерактивная выставка · Pop-IP</span>
-          <span class="work-num">10 / 11</span>
-        </div>
-        <div class="work-meta">
-          <div>
-            <h3 class="work-title">Capybara <em>Booom</em></h3>
-            <p class="work-cat">Exhibitions · Experience design · IP system</p>
-          </div>
-          <span class="work-go">↗</span>
-        </div>
-      </a>
-
     </div>
   </div>
 </section>
@@ -773,11 +783,21 @@
       <div class="timeline reveal">
 
         <div class="tl-item">
-          <span class="tl-year">2022—<br>2025</span>
+          <span class="tl-year">2024—<br>2026</span>
           <div>
             <span class="tl-role">Exhibitions · Experience design</span>
-            <h3 class="tl-title">Capybara Booom &amp; <em>Way of Water</em></h3>
-            <p class="tl-desc">Разработка pop-IP с нуля — персонаж, мерч-система, phygital-парк. Параллельно — иммерсивная выставка Way of Water: интерактивные зоны, проекция, сенсорные механики.</p>
+            <h3 class="tl-title"><em>Capybara Booom</em></h3>
+            <p class="tl-desc">Разработка pop-IP с нуля — персонаж, мерч-система, phygital-парк. Интерактивная выставка, игровые механики, полный цикл от концепции до релиза.</p>
+          </div>
+          <span class="tl-go">↗</span>
+        </div>
+
+        <div class="tl-item">
+          <span class="tl-year">2022—<br>2024</span>
+          <div>
+            <span class="tl-role">Exhibitions · Experience design</span>
+            <h3 class="tl-title">Way of <em>Water</em></h3>
+            <p class="tl-desc">Иммерсивная выставка Way of Water: интерактивные зоны, проекция, сенсорные механики. Арт-дирекшен, сценография, координация технической команды.</p>
           </div>
           <span class="tl-go">↗</span>
         </div>
@@ -786,7 +806,7 @@
           <span class="tl-year">2020—<br>2023</span>
           <div>
             <span class="tl-role">Interactive parks</span>
-            <h3 class="tl-title"><em>Souzmultpark</em></h3>
+            <h3 class="tl-title">Souz<em>multpark</em></h3>
             <p class="tl-desc">Концепция и реализация интерактивного семейного парка на базе советской анимации. Зонирование, игровые механики, мультимедийные среды, IP-система.</p>
           </div>
           <span class="tl-go">↗</span>
@@ -796,7 +816,7 @@
           <span class="tl-year">2019—<br>2022</span>
           <div>
             <span class="tl-role">Media artist</span>
-            <h3 class="tl-title">BAAL. / POLE. / <em>Kandid.</em></h3>
+            <h3 class="tl-title">BAAL. / POLE. / <em>Kandid<span style="font-style:normal">.</span></em></h3>
             <p class="tl-desc">Три театральные постановки — сценография, видеоконтент, световые партитуры. От иммерсивного театра до phygital-спектакля с живым оркестром.</p>
           </div>
           <span class="tl-go">↗</span>
@@ -806,7 +826,7 @@
           <span class="tl-year">2017—<br>2020</span>
           <div>
             <span class="tl-role">Festivals</span>
-            <h3 class="tl-title">Mapping Festival · <em>Большой театр</em></h3>
+            <h3 class="tl-title">Mapping Festival · <em>Большой</em> театр</h3>
             <p class="tl-desc">Проекционный маппинг на фасаде Большого театра и других знаковых объектах. Концепция, сценарий, арт-дирекшен контента, координация технической команды.</p>
           </div>
           <span class="tl-go">↗</span>
@@ -816,7 +836,7 @@
           <span class="tl-year">2014—<br>2017</span>
           <div>
             <span class="tl-role">Creative · Visual programming</span>
-            <h3 class="tl-title">Adidas · <em>Vandalism Free</em></h3>
+            <h3 class="tl-title">Adidas · <em>Vandalism Free</em> / Light Graffiti</h3>
             <p class="tl-desc">Брендовый experiential-проект: концепция light graffiti как замена вандализму. Активация в городской среде, контент-система, интерактивная механика.</p>
           </div>
           <span class="tl-go">↗</span>
@@ -830,7 +850,7 @@
 <!-- CONTACT -->
 <section class="contact" id="contact" data-screen-label="06 Contact">
   <div class="wrap">
-    <p class="contact-pre">[ 05 ] · Get in touch · <span style="color:var(--accent)">Available · 2026 Q3</span></p>
+    <p class="contact-pre">[ 05 ] · Get in touch</p>
     <h2 class="contact-h">
       <a href="mailto:tsamarakovskaya@gmail.com">Let's build<br>something <em>unreal</em><span class="dot">.</span></a>
     </h2>
@@ -838,15 +858,15 @@
     <div class="contact-grid">
       <a class="ccard" href="mailto:tsamarakovskaya@gmail.com">
         <div class="ccard-lbl"><span>01 · Email</span><span class="ccard-go">↗</span></div>
-        <div class="ccard-val">tsamarakovskaya<br>@gmail.com</div>
+        <div class="ccard-val" style="font-size:15px;word-break:break-all">tsamarakovskaya@gmail.com</div>
       </a>
       <a class="ccard" href="tel:+79859148848">
         <div class="ccard-lbl"><span>02 · Phone</span><span class="ccard-go">↗</span></div>
-        <div class="ccard-val">+7 985<br>914 88 48</div>
+        <div class="ccard-val">+7 985 914 88 48</div>
       </a>
       <a class="ccard" href="https://t.me/samarakovskaya_tanya" target="_blank" rel="noopener">
         <div class="ccard-lbl"><span>03 · Telegram</span><span class="ccard-go">↗</span></div>
-        <div class="ccard-val">@samarakovskaya<br>_tanya</div>
+        <div class="ccard-val">@samarakovskaya_tanya</div>
       </a>
     </div>
   </div>
